@@ -15,6 +15,10 @@ jobs:
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
+      - run:
+          name: Hello World
+          command: |
+            echo 'Hello World!'
       # Checkout the code as the first step.
       - checkout
       # Then simply use the dotnet container as you'd expect and run your tests
