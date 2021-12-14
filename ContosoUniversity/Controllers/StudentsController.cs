@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models;
 
+// trying edits for github teams
 namespace ContosoUniversity.Controllers
 {
     public class StudentsController : Controller
